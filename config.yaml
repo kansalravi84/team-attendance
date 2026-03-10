@@ -1,0 +1,16 @@
+workday:
+  start_time: "09:00"
+  end_time: "18:00"
+  late_grace_minutes: 10
+  early_grace_minutes: 10
+  minimum_hours: 8
+
+scoring:
+  late_weight: 1
+  early_leave_weight: 1
+  short_hours_weight: 2
+  absent_weight: 3
+
+report:
+  output_folder: "reports"
+  output_prefix: "attendance_report"
